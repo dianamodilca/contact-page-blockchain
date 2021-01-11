@@ -1,0 +1,114 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.page-wrapper{
+  height: 100%;
+  width: 100%;
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.logo-wrapper{
+  height: 50px;
+  width: 30px;
+  box-sizing: border-box;
+}
+
+.logo-wrapper img{
+  height:100%;
+  width: auto;
+}
+
+.menu-wrapper{
+  position:absolute;
+  top: 100px;
+  right: 100px;
+  box-sizing: border-box;
+ }
+
+.buttons-menu div {
+  width: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+  } 
+
+.buttons-menu.float-right div {
+  float: right;
+ }
+
+.sign-up-wrapper{
+  background-color: #fff;
+  border-radius: 20px;
+  width: auto;
+  text-align: center;
+  color:#00ff;
+}
+
+signUp:link{
+  text-decoration: none;
+  color: #00ff;
+}
+
+signUp:hover{
+  color: #000;
+}
+
+a:link{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: #acfdfe;
+}
+
+.text-wrapper{
+  text-align:center;
+}
+
+
+.title-wrapper{
+  color:#fff;
+  font-size: 40px;
+  margin: 0;
+}
+
+h1{
+  font-family: Verdana, Georgia, Arial, sans-serif;
+  font-size:70px;
+  }
+
+.second-title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 60px;
+  font-size: 50px;
+  color: #acfdfe;
+}
+
+.under-title-wrapper{
+  text-align: center;
+}
+
+hr{
+  width: 300px;
+  border: 1px solid #acfdfe;
+}
+
+.description-wrapper{
+  color: #acfdfe;
+  font-family: Verdana, Georgia, Arial, sans-serif;
+}
+
+.description-wrapper div{
+  width: auto;
+  padding-right: 250px;
+  padding-left: 250px;
+}
