@@ -44,18 +44,26 @@ html, body {
 .buttons-menu.float-right div {
   float: right;
    }
+  
+.sign-up-link{
+  color:#00ff;
+}
 
 .sign-up-wrapper{
   background-color: #fff;
   border-radius: 20px;
   width: auto;
   text-align: center;
-  color:#00ff;
+  
+}
+
+a{
+  color: #fff;
 }
 
 a:link{
   text-decoration: none;
-  color: white;
+  
 }
 a:hover{
   color: #acfdfe;
@@ -193,6 +201,15 @@ label, input{
   width: auto;
   height: 40px;
   
+}
+
+.submit-link{
+  color: #00ff;
+}
+
+.enter-wrapper{
+  display: inline;
+  font-weight: bold;
 }
 
 footer{
