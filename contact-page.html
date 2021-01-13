@@ -18,8 +18,8 @@
         <link rel="stylesheet" type="text/css" href="resources/main.css">
     </head>
     <body>
-        <div class="contact-page-wrapper"> 
-            <!-- randurile 22-53 pot sa faca parte dintr-un <header> -->
+        
+        <header class="contact-page-wrapper">
             <div class="logo-wrapper">
                 <img src="assets/logo.png">
             </div>
@@ -40,7 +40,7 @@
              <div class="menu-wrapper">
                 <div class="buttons-menu float-right">
                     <div><a href="https://www.google.com/" target="_blank">Community</a></div>
-                    <div><a href="https://www.google.com/" target="_blank">Contact</a></div>
+                    <div><a href="./contact-page.html" target="_self">Contact</a></div>
                     <div><a href="https://www.google.com/" target="_blank">Services</a></div>
                     <div><a href="./blockchain-layout.html" target="_self">About</a></div>
                     <div>
@@ -50,68 +50,66 @@
                     </div>
                 </div>
               </div>
-        </div>
+        </header> 
+       
 
         <!-- FORM     -->
-        <!-- iar aici putem sa avem un <main> -->
-        <div class="form-wrapper">
-        <form>
-            <label for="firstNameInput">First name</label>
-            <div class="input-wrapper">
-                <i class="fas fa-user"></i>
-                <input autofocus required class="input-validation" type="text" name="fisrt_name_input" id="firstNameInput" placeholder="Enter your first name" minlength="5"/>
-            </div>
+       
+        <main class="form-wrapper">
+            <form>
+                <div class="first-name-wrapper">
+                    <label for="firstNameInput">First name</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-user"></i>
+                        <input autofocus required class="input-validation" type="text" name="first_name_input" id="firstNameInput" placeholder="Enter your first name" minlength="5"/>
+                    </div>
+                </div>
 
-            <!-- poti sa folosesti niste wrappere, div-uri de exemplu si sa iti spatiezi folosindu-te de ele, evitand sa folosesti br -->
-            <br>
+                <div class="last-name-wrapper">
+                    <label for="lastNameInput">Last name</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-user"></i>
+                        <input required class="input-validation" type="text" name="last_name_input" id="lastNameInput" placeholder="Enter your last name" minlength="5"/>
+                    </div>
+                </div>
 
-            <label for="lastNameInput">Last name</label>
-            <div class="input-wrapper">
-                <i class="fas fa-user"></i>
-                <input required class="input-validation" type="text" name="last_name_input" id="lastNameInput" placeholder="Enter your last name" minlength="5"/>
-            </div>
+                <div class="email-wrapper">
+                    <label for="emailInput">Email</label>
+                    <div class="input-wrapper">    
+                        <i class="fas fa-envelope"></i>        
+                        <input required class="input-validation" type="email" name="email_input" id="emailInput" placeholder="Enter your email" />
+                    </div>
+                </div>
+            
+                <div class="form-horizontal-line-wrapper">
+                    <hr>
+                </div>
 
-            <br>
-
-            <label for="emailInput">Email</label>
-            <div class="input-wrapper">    
-                <i class="fas fa-envelope"></i>        
-                <input required class="input-validation" type="email" name="email_input" id="emailInput" placeholder="Enter your email" />
-            </div>
-            <br>
-
-            <div class="form-horizontal-line-wrapper">
-                <hr>
-            </div>
-
-            <label for="textarea">Message</label><br>
-            <textarea required class="input-validation" id="textarea" rows="8" cols="50" minlength="50" maxlength="250"></textarea>
-
-            <br>
-            <br>
-            <div class="submit-wrapper">
-                <button class="submit-button" type="submit">Submit</button> 
+                <div class="text-area-wrapper">
+                    <label for="textarea">Message</label><br>
+                    <textarea required class="input-validation" id="textarea" rows="8" cols="50" minlength="50" maxlength="250"></textarea>
+                </div>
                 
-                <a class="submit-link" href="https://www.google.com/" target="_blank">or press 
-                    <div class="enter-wrapper">enter</div>
-                </a>
-              
-            </div>
-        </form> 
-    </div>  
-    <br>
-    <footer>
-        
+                <div class="submit-wrapper">
+                    <button class="submit-button" type="submit">Submit</button> 
+                    
+                    <a class="submit-link" href="https://www.google.com/" target="_blank">or press 
+                        <div class="enter-wrapper">enter</div>
+                    </a>
+                </div>
+            </form> 
+        </main>  
+    
+        <footer>
             BLOCKCHAIN
             <br>
             <div>TECHNOLOGY</div>
-       
-    </footer>          
+        </footer>          
     </body>
 </html>
 
 
-
+ 
 
 
 
